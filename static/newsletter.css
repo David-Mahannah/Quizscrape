@@ -1,0 +1,76 @@
+body {
+  background-color: #f2f5f7;
+  font-family: Helvetica, sans-serif;
+  margin: 0px;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.quizlet {
+  margin-left: 15px;
+}
+
+.wikipedia {
+  margin-left: 15px;
+}
+
+.quizlet_card {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 20px;
+  filter: drop-shadow(0 0 2px black);
+  position: relative;
+}
+
+.result {
+  margin: 0px;
+  padding: none;
+}
+
+.source {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.similarity {
+  margin: 0px;
+  padding: none;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #284B63;
+  border-bottom: 3px solid orange;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #1D3849;
+}

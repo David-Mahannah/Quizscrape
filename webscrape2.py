@@ -29,7 +29,6 @@ from nltk.corpus import sentiwordnet as swn
 
 # This fixes multithreading lemmatizing
 next(swn.all_senti_synsets())
-nltk.download('sentiwordnet')
 
 # Object used to store the collected data from each quizlet card
 class Card:

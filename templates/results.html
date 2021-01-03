@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quizscrape</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='results.css') }}">
+  </head>
+  <body>
+    <ul>
+     <li><a href="/"><b>Quizscrape</b></a></li>
+     <li><a href="/news">News</a></li>
+     <li style="float:right"><a class="active" href="/about">About</a></li>
+   </ul>
+     <br>
+     <!-- <br>
+     <br>
+
+    <h2 class="your_question"> Quizscrape</h2> -->
+    <form action="http://localhost:5000/submit_search" method="post">
+      <input type="text" id="fname" name="q" class="question" type="text" value="{{question}}">
+      <input type="submit" value="Search">
+    </form>
+    <h2 class="quizlet">Quizlet</h2>
+    {% if results|length != 0 %}
+      {% for result in results %}
+        <div class="quizlet_card">
+            <div class="answer_container">
+            <div class="ques"><b>{{result.question}}</b></div>
+            <div class="ans"><b>{{ result.result }}</b></div>
+        </div>
+          <div class="source_and_similarity">
+            <h4 class="source"> Source: <a href="{{result.resource}}">{{result.resource}}</a> </h4>
+            <h4 class="similarity"> Similarity: {{ result.similarity}}%</h4>
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <h3>Nothing found on quizlet  ¯\_(ツ)_/¯</h3>
+    {% endif %}
+  </body>
+</html>

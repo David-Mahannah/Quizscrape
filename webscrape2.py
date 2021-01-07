@@ -109,8 +109,8 @@ class Webscrape2:
         proxy_port = randomPort
         proxy_auth = ":"
         proxies = {
-            "https": "https://{}@{}:{}/".format(proxy_auth, proxy_host, proxy_port),
-            "http": "http://{}@{}:{}/".format(proxy_auth, proxy_host, proxy_port)
+            "https": "https://{}:{}".format(proxy_host, proxy_port),
+            "http": "http://{}:{}".format(proxy_host, proxy_port)
             }
         
         headers={'User-Agent': self.GET_UA()}

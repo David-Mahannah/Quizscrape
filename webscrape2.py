@@ -53,7 +53,7 @@ class Webscrape2:
         c = [value for value in lem_tok_1 if value in lem_tok_2]
         return len(c) / max(len(lem_tok_1), len(lem_tok_2)) * 100
 
-    def GET_UA():
+    def GET_UA(self):
         uastrings = ["Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",\
             "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36",\
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25",\

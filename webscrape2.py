@@ -19,6 +19,7 @@ import threading
 import time
 from queue import Queue
 import csv
+import random
 import logging
 from selenium.webdriver.remote.remote_connection import LOGGER
 from urllib3.connectionpool import log as urllibLogger

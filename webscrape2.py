@@ -27,6 +27,7 @@ import concurrent.futures
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import sentiwordnet as swn
+from proxy_finder import LoadUpProxies
 
 # This fixes multithreading lemmatizing
 next(swn.all_senti_synsets())
@@ -95,10 +96,24 @@ class Webscrape2:
         return matches
 
     def quizletScrape(self, text):
-        print("joe")
         s = requests.Session()
-        headers={'User-Agent': self.GET_UA()}
-        src = s.get("https://google.com/search?q={0} site:Quizlet.com".format(text), headers=headers)
+        proxies = LoadUpProxies()
+        rnd=randrange(len(proxies))
+        randomIP=proxies[rnd]['ip']
+        randomPort=proxies[rnd]['port']
+        print(randomIP)
+        print(randomPort)
+
+        proxy_host = randomIP
+        proxy_port = randomPort
+        proxy_auth = ":"
+        proxies = {
+            "https": "https://{}@{}:{}/".format(proxy_auth, proxy_host, proxy_port),
+            "http": "http://{}@{}:{}/".format(proxy_auth, proxy_host, proxy_port)
+            }
+        
+        headers={'User-Agent': self.GETf_UA()}
+        src = s.get("https://google.com/search?q={0} site:Quizlet.com".format(text), headers=headers, proxies=proxies, verify=False)
         soup = BeautifulSoup(src.content, "html.parser")
         print(soup.prettify())
         google_links = []

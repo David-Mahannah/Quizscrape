@@ -28,6 +28,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import sentiwordnet as swn
 from proxy_finder import LoadUpProxies
+from random import randrange
 
 # This fixes multithreading lemmatizing
 next(swn.all_senti_synsets())

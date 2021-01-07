@@ -95,7 +95,7 @@ class Webscrape2:
 
     def quizletScrape(self, text):
         print("joe")
-        headers={'User-Agent': GET_UA()}
+        headers={'User-Agent': self.GET_UA()}
         src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text), headers=headers)
         soup = BeautifulSoup(src.content, "html.parser")
         print(soup.prettify())

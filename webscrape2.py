@@ -82,6 +82,7 @@ class Webscrape2:
     def quizletScrape(self, text):
         src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text))
         soup = BeautifulSoup(src.content, "html.parser")
+        print(soup.prettify())
         google_links = []
         quizlet_links = []
         divs = soup.find_all('div', class_="kCrYT")

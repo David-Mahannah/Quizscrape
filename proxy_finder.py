@@ -10,7 +10,7 @@ def LoadUpProxies():
 		'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9'
 	}
 	response=requests.get(url,headers=header)
-	soup=BeautifulSoup(response.content, 'lxml')
+	soup=BeautifulSoup(response.content, "html.parser")
 	for item in soup.select('#proxylisttable tr'):
 		try:
 			out.append({'ip': item.select('td')[0].get_text(), 'port': item.select('td')[1].get_text()})

@@ -83,12 +83,12 @@ class Webscrape2:
         src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text))
         soup = BeautifulSoup(src.content, "html.parser")
         google_links = []
+        quizlet_links = []
         divs = soup.find_all('div', class_="kCrYT")
         for i in divs:
             link = i.find('a')
             if link:
                 google_links.append(i.find('a').get('href'))
-                quizlet_links = []
 
         for link in google_links:
             if link.startswith("/url?q=https://quizlet.com/"):

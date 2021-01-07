@@ -80,6 +80,7 @@ class Webscrape2:
         return matches
 
     def quizletScrape(self, text):
+        print("joe")
         src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text))
         soup = BeautifulSoup(src.content, "html.parser")
         print(soup.prettify())

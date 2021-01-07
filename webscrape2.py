@@ -113,7 +113,7 @@ class Webscrape2:
             "http": "http://{}@{}:{}/".format(proxy_auth, proxy_host, proxy_port)
             }
         
-        headers={'User-Agent': self.GETf_UA()}
+        headers={'User-Agent': self.GET_UA()}
         src = s.get("https://google.com/search?q={0} site:Quizlet.com".format(text), headers=headers, proxies=proxies, verify=False)
         soup = BeautifulSoup(src.content, "html.parser")
         print(soup.prettify())

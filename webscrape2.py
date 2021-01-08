@@ -98,24 +98,24 @@ class Webscrape2:
 
     def quizletScrape(self, text):
 
-        s = requests.Session()
-        proxies = LoadUpProxies()
-        rnd=randrange(len(proxies))
+        #s = requests.Session()
+        # proxies = LoadUpProxies()
+        # rnd=randrange(len(proxies))
 
-        randomIP=proxies[rnd]['ip']
-        randomPort=proxies[rnd]['port']
-        print(randomIP)
-        print(randomPort)
+        # randomIP=proxies[rnd]['ip']
+        # randomPort=proxies[rnd]['port']
+        # print(randomIP)
+        # print(randomPort)
 
-        proxy_host = randomIP
-        proxy_port = randomPort
+        # proxy_host = randomIP
+        # proxy_port = randomPort
 
         proxies = {
             "http": "http://53f21367c50e4569b807846ceabcab54:@proxy.crawlera.com:8010/"
             }
         
         #headers={'User-Agent': self.GET_UA()}
-        src = s.get("https://google.com/search?q={0} site:Quizlet.com".format(text), proxies=proxies, verify="crawlera-ca.crt")
+        src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text), proxies=proxies, verify="crawlera-ca.crt")
         soup = BeautifulSoup(src.content, "html.parser")
 
         print(soup.prettify())

@@ -115,7 +115,7 @@ class Webscrape2:
             }
         
         #headers={'User-Agent': self.GET_UA()}
-        src = s.get("Quizlet.com", proxies=proxies, verify="crawlera-ca.crt")
+        src = s.get("http://quizlet.com", proxies=proxies, verify="crawlera-ca.crt")
         soup = BeautifulSoup(src.content, "html.parser")
 
         print(soup.prettify())

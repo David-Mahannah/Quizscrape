@@ -97,9 +97,11 @@ class Webscrape2:
         return matches
 
     def quizletScrape(self, text):
+
         s = requests.Session()
         proxies = LoadUpProxies()
         rnd=randrange(len(proxies))
+
         randomIP=proxies[rnd]['ip']
         randomPort=proxies[rnd]['port']
         print(randomIP)
@@ -107,15 +109,15 @@ class Webscrape2:
 
         proxy_host = randomIP
         proxy_port = randomPort
-        proxy_auth = ":"
+
         proxies = {
-            "https": "https://{}:{}".format(proxy_host, proxy_port),
-            "http": "http://{}:{}".format(proxy_host, proxy_port)
+            "http": "http://53f21367c50e4569b807846ceabcab54:@proxy.crawlera.com:8010/"
             }
         
-        headers={'User-Agent': self.GET_UA()}
-        src = s.get("https://google.com/search?q={0} site:Quizlet.com".format(text), headers=headers, proxies=proxies, verify=False)
+        #headers={'User-Agent': self.GET_UA()}
+        src = s.get("https://google.com/search?q={0} site:Quizlet.com".format(text), proxies=proxies)
         soup = BeautifulSoup(src.content, "html.parser")
+
         print(soup.prettify())
         google_links = []
         quizlet_links = []

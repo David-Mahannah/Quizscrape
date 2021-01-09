@@ -115,10 +115,12 @@ class Webscrape2:
             }
         
         #headers={'User-Agent': self.GET_UA()}
+        print("Searching")
         src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text), proxies=proxies, verify="/home/david/Quizscrape/myprojectenv/lib/python3.8/site-packages/certifi/cacert.pem")
         soup = BeautifulSoup(src.content, "html.parser")
-
+        print("Finished")
         print(soup.prettify())
+        print("^ soup")
         google_links = []
         quizlet_links = []
         divs = soup.find_all('div', class_="kCrYT")

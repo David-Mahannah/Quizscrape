@@ -133,7 +133,7 @@ class Webscrape2:
         # for link in google_links:
         #     if link.startswith("/url?q=https://quizlet.com/"):
         #         quizlet_links.append(link)
-        quizlet_links = ['https://quizlet.com/40826338/germany-culture-questions-geography-flash-cards/', 'https://quizlet.com/109005066/german-border-countries-and-capitals-flash-cards/']
+        quizlet_links = ['/url?q=https://quizlet.com/40826338/germany-culture-questions-geography-flash-cards/', '/url?q=https://quizlet.com/109005066/german-border-countries-and-capitals-flash-cards/']
 
         # Split the links amoungst threads and collect the results in out
         # if the number of cards is 1 dont bother multithreading

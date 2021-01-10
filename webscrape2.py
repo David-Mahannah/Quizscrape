@@ -110,29 +110,30 @@ class Webscrape2:
         # proxy_host = randomIP
         # proxy_port = randomPort
 
-        proxies = {
-            "http": "http://53f21367c50e4569b807846ceabcab54:@proxy.crawlera.com:8010/"
-            }
+        # proxies = {
+        #     "http": "http://53f21367c50e4569b807846ceabcab54:@proxy.crawlera.com:8010/"
+        #     }
         
         #headers={'User-Agent': self.GET_UA()}
-        headers = {'User-Agent': self.GET_UA()}
-        print("Searching")
-        src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text), proxies=proxies, verify="/home/david/Quizscrape/myprojectenv/lib/python3.8/site-packages/certifi/cacert.pem", headers=headers)
-        soup = BeautifulSoup(src.content, "html.parser")
-        print("Finished")
-        print(soup.prettify())
-        print("^ soup")
-        google_links = []
-        quizlet_links = []
-        divs = soup.find_all('div', class_="kCrYT")
-        for i in divs:
-            link = i.find('a')
-            if link:
-                google_links.append(i.find('a').get('href'))
+        # headers = {'User-Agent': self.GET_UA()}
+        # print("Searching")
+        # src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text), proxies=proxies, verify="/home/david/Quizscrape/myprojectenv/lib/python3.8/site-packages/certifi/cacert.pem", headers=headers)
+        # soup = BeautifulSoup(src.content, "html.parser")
+        # print("Finished")
+        # print(soup.prettify())
+        # print("^ soup")
+        # google_links = []
+        # quizlet_links = []
+        # divs = soup.find_all('div', class_="kCrYT")
+        # for i in divs:
+        #     link = i.find('a')
+        #     if link:
+        #         google_links.append(i.find('a').get('href'))
 
-        for link in google_links:
-            if link.startswith("/url?q=https://quizlet.com/"):
-                quizlet_links.append(link)
+        # for link in google_links:
+        #     if link.startswith("/url?q=https://quizlet.com/"):
+        #         quizlet_links.append(link)
+        quizlet_links = ['/url?q=https://quizlet.com/40826338/germany-culture-questions-geography-flash-cards/', '/url?q=https://quizlet.com/109005066/german-border-countries-and-capitals-flash-cards/']
 
         # Split the links amoungst threads and collect the results in out
         # if the number of cards is 1 dont bother multithreading

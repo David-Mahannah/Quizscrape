@@ -76,7 +76,7 @@ class Webscrape2:
                          "KHTML, like Gecko) Version/4.0 Safari/534.30"}
         src = requests.get(link, headers=headers)
         soup = BeautifulSoup(src.content, "html.parser")
-        print(soup.prettify())
+        #print(soup.prettify())
         cards = soup.find_all('div', class_="SetPageTerms-term")
         tidy = []
         for card in cards:
@@ -141,6 +141,7 @@ class Webscrape2:
         for link in quizlet_links:
             if "quizlet.com" in link.url: 
                 better_quizlet_links = link.url
+                print(better_quizlet_links)
 
         print("-------------------------")
         print(quizlet_links)

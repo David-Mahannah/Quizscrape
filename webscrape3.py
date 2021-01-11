@@ -26,13 +26,17 @@ class CrawlerWorker(multiprocessing.Process):
         self.crawler.start()
         print("LOG: stopping :GOL")
         self.crawler.stop()
+        print("LOG: putting in queue :GOL")
         self.result_queue.put(self.items)
+        print("LOG: done :GOL")
 
 def scrapeDaGoog(text):
     result_queue = Queue()
     crawler = CrawlerWorker(GoogSpider, result_queue, text)
     crawler.start()
     #crawler.stop()
+    print("Alive? ", crawler.is_alive())
+    crawler.terminate()
     out = []
     print(result_queue.get())
     print("CHECKPOINT 1")

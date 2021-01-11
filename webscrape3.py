@@ -32,12 +32,15 @@ def scrapeDaGoog(text):
     crawler.start()
     out = []
     print(result_queue.get())
+    print("CHECKPOINT 1")
     for item in result_queue.get()[0]['link']:
         out.append(item.url)
 
+    print("CHECKPOINT 2")
     crawler.stop()
+    print("CHECKPOINT 3")
     return out
 
-if __name__ == '__main__':
-    data =scrapeDaGoog("What is the capital of Germany?")
-    print(len(data))
+#if __name__ == '__main__':
+    #data =scrapeDaGoog("What is the capital of Germany?")
+    #print(len(data))

@@ -20,6 +20,7 @@ class GoogSpider(scrapy.Spider):
         'BOT_NAME' : 'quotes',
         'ROBOTSTXT_OBEY' : False
     }
+    
     def parse(self, response):
         print(response)
         xlink = LinkExtractor()

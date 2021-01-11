@@ -40,7 +40,7 @@ def scrapeDaGoog(text):
     # print(result_queue.get())
     # print("CHECKPOINT 1")
     #return result_queue.get()[0]['link'][:8]
-    for item in result_queue.get()[0]['link'][:8]:
+    for item in result_queue.get()[0]['link']:
         #yield item
         print(item.url)
         out.append(item.url)

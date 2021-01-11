@@ -22,7 +22,9 @@ class CrawlerWorker(multiprocessing.Process):
 
     def run(self):
         self.crawler.crawl(self.spider, self.text)
+        print("LOG: starting :GOL")
         self.crawler.start()
+        print("LOG: stopping :GOL")
         self.crawler.stop()
         self.result_queue.put(self.items)
 

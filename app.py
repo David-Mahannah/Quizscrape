@@ -47,6 +47,7 @@ def submit():
         r = request.form['q']
         start_time = time.time()
         list_or_rows = scrapeDaGoog(r)
+        print(type(list_of_rows))
         #list_of_rows = scraper.quizletScrape(r)
         print("--- %s seconds ---" % (time.time() - start_time))
         #db.session.add(Search(number_of_results=len(list_of_rows), time=time.time() - start_time))

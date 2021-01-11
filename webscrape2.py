@@ -137,7 +137,8 @@ class Webscrape2:
         #         quizlet_links.append(link)
         # quizlet_links = ['/url?q=https://quizlet.com/40826338/germany-culture-questions-geography-flash-cards/', '/url?q=https://quizlet.com/109005066/german-border-countries-and-capitals-flash-cards/']
         quizlet_links = scrapeDaGoog(text)     
-
+        print("-------------------------")
+        print(quizlet_links)
         # Split the links amoungst threads and collect the results in out
         # if the number of cards is 1 dont bother multithreading
         threads = []

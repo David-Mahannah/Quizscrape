@@ -140,7 +140,7 @@ class Webscrape2:
         better_quizlet_links = []
         for link in quizlet_links:
             if "quizlet.com" in link: 
-                better_quizlet_links.append(link)
+                better_quizlet_links.append(link.split("url?q=", 1)[1])
                 print(better_quizlet_links)
 
         print("-------------------------")

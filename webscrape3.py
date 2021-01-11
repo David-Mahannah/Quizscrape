@@ -36,7 +36,6 @@ def scrapeDaGoog(text):
     crawler.start()
     #crawler.stop()
     print("Alive? ", crawler.is_alive())
-    crawler.terminate()
     out = []
     print(result_queue.get())
     print("CHECKPOINT 1")
@@ -47,6 +46,7 @@ def scrapeDaGoog(text):
     print("CHECKPOINT 2")
     crawler.stop()
     print("CHECKPOINT 3")
+    crawler.terminate()
     return out
 
 #if __name__ == '__main__':

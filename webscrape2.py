@@ -154,7 +154,7 @@ class Webscrape2:
         # if the number of cards is 1 dont bother multithreading
         threads = []
         out = []
-        if len(better)quizlet_links) > 1:
+        if len(better_quizlet_links) > 1:
             with concurrent.futures.ThreadPoolExecutor() as executer:
                 futures = [executer.submit(self.searchQuizletDeck, deck, text) for deck in better_quizlet_links]
                 out = [f.result() for f in futures]

@@ -35,6 +35,7 @@ def scrapeDaGoog(text):
     for item in result_queue.get()[0]['link']:
         out.append(item.url)
 
+    crawler.stop()
     return out
 
 if __name__ == '__main__':

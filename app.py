@@ -8,7 +8,7 @@ import time
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import os
-from Goog import scrapeDaGoog
+from webscrape3 import scrapeDaGoog
 # Flask constructor takes the name of
 # current module (__name__) as argument.
 

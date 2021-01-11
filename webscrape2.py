@@ -139,8 +139,8 @@ class Webscrape2:
         quizlet_links = scrapeDaGoog(text)
         better_quizlet_links = []
         for link in quizlet_links:
-            if "quizlet.com" in link.url: 
-                better_quizlet_links.append(link.url)
+            if "quizlet.com" in link: 
+                better_quizlet_links.append(link)
                 print(better_quizlet_links)
 
         print("-------------------------")

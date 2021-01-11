@@ -145,7 +145,7 @@ class Webscrape2:
         out = []
         if len(quizlet_links) > 1:
             with concurrent.futures.ThreadPoolExecutor() as executer:
-                futures = [executer.submit(self.searchQuizletDeck, deck, text) for deck in quizlet_links]
+                futures = [executer.submit(self.searchQuizletDeck, deck.url, text) for deck in quizlet_links]
                 out = [f.result() for f in futures]
 
         else:

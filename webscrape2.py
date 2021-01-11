@@ -74,7 +74,12 @@ class Webscrape2:
     def searchQuizletDeck(self, link, text):
         headers = {"User-Agent": "Mozilla/5.0 (Linux; U; Android 4.2.2; he-il; NEO-X5-116A Build/JDQ39) AppleWebKit/534.30 ("
                          "KHTML, like Gecko) Version/4.0 Safari/534.30"}
-        src = requests.get(link, headers=headers)
+        
+        proxies = {
+            "http": "http://53f21367c50e4569b807846ceabcab54:@proxy.crawlera.com:8010/"
+        }
+
+        src = requests.get(link, headers=headers, proxies=proxies, verify='crawlera-ca.crt')
         soup = BeautifulSoup(src.content, "html.parser")
         #print(soup.prettify())
         cards = soup.find_all('div', class_="SetPageTerms-term")
@@ -139,17 +144,17 @@ class Webscrape2:
         quizlet_links = scrapeDaGoog(text)
         better_quizlet_links = []
         for link in quizlet_links:
-            if "https://quizlet.com" in link: 
+            if "https://quizlet.com" in link:
                 better_quizlet_links.append(link.split("url?q=", 1)[1])
                 print(better_quizlet_links)
 
         print("-------------------------")
-        print(quizlet_links)
+        print(better_quizlet_links)
         # Split the links amoungst threads and collect the results in out
         # if the number of cards is 1 dont bother multithreading
         threads = []
         out = []
-        if len(quizlet_links) > 1:
+        if len(better)quizlet_links) > 1:
             with concurrent.futures.ThreadPoolExecutor() as executer:
                 futures = [executer.submit(self.searchQuizletDeck, deck, text) for deck in better_quizlet_links]
                 out = [f.result() for f in futures]

@@ -136,7 +136,12 @@ class Webscrape2:
         #     if link.startswith("/url?q=https://quizlet.com/"):
         #         quizlet_links.append(link)
         # quizlet_links = ['/url?q=https://quizlet.com/40826338/germany-culture-questions-geography-flash-cards/', '/url?q=https://quizlet.com/109005066/german-border-countries-and-capitals-flash-cards/']
-        quizlet_links = scrapeDaGoog(text)     
+        quizlet_links = scrapeDaGoog(text)
+        better_quizlet_links = []
+        for link in quizlet_links:
+            if "quizlet.com" in link.url: 
+                better_quizlet_links = link.url
+
         print("-------------------------")
         print(quizlet_links)
         # Split the links amoungst threads and collect the results in out
@@ -145,7 +150,7 @@ class Webscrape2:
         out = []
         if len(quizlet_links) > 1:
             with concurrent.futures.ThreadPoolExecutor() as executer:
-                futures = [executer.submit(self.searchQuizletDeck, deck.url, text) for deck in quizlet_links]
+                futures = [executer.submit(self.searchQuizletDeck, deck, text) for deck in better_quizlet_links]
                 out = [f.result() for f in futures]
 
         else:

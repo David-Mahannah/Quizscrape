@@ -36,20 +36,20 @@ def scrapeDaGoog(text):
     crawler.start()
     #crawler.stop()
     # print("Alive? ", crawler.is_alive())
-    # out = []
+    out = []
     # print(result_queue.get())
     # print("CHECKPOINT 1")
     return result_queue.get()[0]['link'][:8]
     for item in result_queue.get()[0]['link'][:8]:
-        yield item
+        #yield item
         # print("yeet", item)
-        # out.append(item.url)
+        out.append(item.url)
 
     # print("CHECKPOINT 2")
     # crawler.stop()
     # print("CHECKPOINT 3")
     # crawler.terminate()
-    # return out
+    return out
 
 #if __name__ == '__main__':
     #data =scrapeDaGoog("What is the capital of Germany?")

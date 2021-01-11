@@ -41,6 +41,7 @@ def scrapeDaGoog(text):
     print(result_queue.get())
     print("CHECKPOINT 1")
     for item in result_queue.get()[0]['link'][:8]:
+        print("yeet", item)
         out.append(item.url)
 
     print("CHECKPOINT 2")

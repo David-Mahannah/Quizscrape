@@ -8,6 +8,7 @@ import time
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import os
+from Goog import scrapeDaGoog
 # Flask constructor takes the name of
 # current module (__name__) as argument.
 
@@ -45,7 +46,8 @@ def submit():
     if request.method == 'POST':
         r = request.form['q']
         start_time = time.time()
-        list_of_rows = scraper.quizletScrape(r)
+        list_or_rows = scrapeDaGoog(r)
+        #list_of_rows = scraper.quizletScrape(r)
         print("--- %s seconds ---" % (time.time() - start_time))
         #db.session.add(Search(number_of_results=len(list_of_rows), time=time.time() - start_time))
         #db.session.commit()

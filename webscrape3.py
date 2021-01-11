@@ -30,7 +30,7 @@ def scrapeDaGoog(text):
     result_queue = Queue()
     crawler = CrawlerWorker(GoogSpider, result_queue, text)
     crawler.start()
-    crawler.stop()
+    #crawler.stop()
     out = []
     print(result_queue.get())
     print("CHECKPOINT 1")

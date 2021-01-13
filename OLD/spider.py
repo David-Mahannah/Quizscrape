@@ -12,7 +12,7 @@ class GoogSpider(scrapy.Spider):
         ]
 
         for url in urls:
-            #print("running url: ", url)
+            print("running url: ", url)
             yield scrapy.Request(url=url, callback=self.parse)
 
     name = "quotes"
@@ -22,7 +22,6 @@ class GoogSpider(scrapy.Spider):
     }
     
     def parse(self, response):
-        print("RESPONSE ", response)
+        print(response)
         xlink = LinkExtractor()
-        yield Epic(link=xlink.extract_links(response))
-
+        return Epic(link=xlink.extract_links(response))

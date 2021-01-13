@@ -160,9 +160,10 @@ def run(text):
         elif (c2 > minimum_error):
             matches.append(Cards(front, back, url, round(c2, 2)))
    
-    for card in matches:
-        print(card.question, card.result, card.similarity, card.resource)
+    #for card in matches:
+    #    print(card.question, card.result, card.similarity, card.resource)
 
+    return matches
     #print(matches)
     #print(out)
 

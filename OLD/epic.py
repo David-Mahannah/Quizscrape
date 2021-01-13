@@ -6,13 +6,3 @@ import scrapy
 
 class Epic(scrapy.Item):
     link = scrapy.Field()
-
-
-class Card(scrapy.Item):
-    front = scrapy.Field()
-    back = scrapy.Field()
-    link = scrapy.Field()
-
-
-class CardHolder(scrapy.Item):
-    cards = scrapy.Field()

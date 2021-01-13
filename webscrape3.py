@@ -163,6 +163,13 @@ def run(text):
     #for card in matches:
     #    print(card.question, card.result, card.similarity, card.resource)
 
+    n = len(matches)
+        for i in range(n):
+            for j in range(0, n-i-1):
+                if matches[j].similarity < matches[j+1].similarity :
+                    matches[j], matches[j+1] = matches[j+1], matches[j]
+
+
     return matches
     #print(matches)
     #print(out)

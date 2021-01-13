@@ -29,6 +29,11 @@ class Search(db.Model):
     number_of_results = db.Column(db.Integer(), nullable=False)
     time = db.Column(db.String(120), nullable=False)
 
+
+@app.errorhandler(500)
+def page_not_found(e):
+    return render_template('500.html'), 500
+
 @app.route('/')
 def landing():
     return render_template("landing.html")

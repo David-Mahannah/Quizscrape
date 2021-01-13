@@ -138,7 +138,7 @@ def run(text):
     counter = 1
     out = []
     for link in data:
-        if "https://quizlet.com" in link:
+        if "https://quizlet.com" in link and link:
             print("ITERATION ", counter)
             out.extend(quizletScrape(text, link.split("url?q=", 1)[1]))
             counter = counter + 1

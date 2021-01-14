@@ -112,7 +112,9 @@ def run(text, minimum_similarity=60):
         if "https://quizlet.com" in link:
             try:
                 out.extend(quizletScrape(text, link.split("url?q=", 1)[1]))
-    
+            except:
+                continue
+            
     # Smash all the cards into a similarity algorithm and keep the
     # cards that are above the minimum_error
     matches = []

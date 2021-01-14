@@ -1,0 +1,304 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:45:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:45:08] "[37mGET /static/landing.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:45:08] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:45:12] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:45:12] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:48:52] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:48:52] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:48:52] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:02] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:02] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:02] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:14] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:14] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:30] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:30] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:30] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:31] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:31] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:31] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:42] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:42] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:50:42] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:51:19] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:51:19] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:51:19] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:51:46] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:51:47] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:51:47] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:52:18] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:52:18] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:52:18] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:52:19] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:52:19] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:52:19] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:55:28] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:55:28] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:55:28] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:55:47] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:55:47] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:55:47] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:56:17] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:56:18] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:56:18] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:58:26] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:58:26] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:58:26] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 14:58:28] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:00:00] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:00:00] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:00:00] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:00:22] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:00:22] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:00:22] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:01:09] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:01:09] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:01:09] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:01:22] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:01:22] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:01:22] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:06:24] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:06:24] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:06:25] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:06:41] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:06:41] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:06:41] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:07:13] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:07:14] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:07:14] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:07:15] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:07:16] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:07:16] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:08:03] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:08:03] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:08:03] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:08:18] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:08:18] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:08:18] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:08:37] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:10:59] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:10:59] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:10:59] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:11:37] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:11:37] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:11:37] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:11:44] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:11:44] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:11:44] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:11:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:11:49] "[37mGET /news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:11:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:11:56] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:12:32] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:12:33] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:12:36] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:12:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:04] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:04] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:04] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:20] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:20] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:20] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:22] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:23] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:23] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:23] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:23] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:23] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:23] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:30] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:44] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:45] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:13:45] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:14:31] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:14:31] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:14:31] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:14:32] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:14:32] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:14:32] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:14:33] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:14:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:15:02] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:15:04] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:15:04] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:15:04] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:15:14] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:15:14] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:15:14] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:15:27] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:15:27] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:15:27] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:18:13] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:18:13] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:18:13] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:18:25] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:18:25] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:18:25] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:19:11] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:19:11] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:19:11] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:26:27] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:26:27] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:33] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:33] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:33] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:33] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:34] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:34] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:34] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:34] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:46] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:46] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:46] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:27:46] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:28:11] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:28:11] "[36mGET /static/error500.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:28:51] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:28:52] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:28:52] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:28:52] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:04] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:04] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:04] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:04] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:05] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:05] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:05] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:05] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:19] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:19] "[36mGET /static/error500.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:50] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:50] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:50] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:50] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:59] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:59] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:59] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:30:59] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:31:14] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:31:15] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:31:15] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:31:15] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:31:16] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:31:17] "[36mGET /static/error500.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:31:28] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:31:28] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:31:28] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:31:28] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:32:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:32:34] "[37mGET /static/landing.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:32:35] "[37mGET /news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:32:36] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:32:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:33:31] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:33:46] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:37:55] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:37:56] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:app:Exception on /error404 [GET]
+Traceback (most recent call last):
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 93, in error404
+    return render_template('404.html')
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: 404.html
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:43:27] "[35m[1mGET /error404 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /error404 [GET]
+Traceback (most recent call last):
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 93, in error404
+    return render_template('404.html')
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\mahan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: 404.html
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:43:29] "[35m[1mGET /error404 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:43:29] "[36mGET /static/error500.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:43:44] "[37mGET /error404 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:43:44] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:43:44] "[37mGET /static/error404.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:43:45] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:44:11] "[37mGET /error404 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:44:11] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:44:11] "[37mGET /static/error404.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:44:11] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:44:59] "[37mGET /error404 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:44:59] "[36mGET /static/error404.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:49:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:49:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:49:26] "[37mGET /news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:49:27] "[37mGET /news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:49:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:49:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:49:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:49:31] "[37mGET /news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 15:49:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 16:26:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 16:26:18] "[37mGET /static/landing.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 16:26:19] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 16:26:25] "[37mGET /error500 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 16:26:25] "[37mGET /static/newsletter.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 16:26:25] "[37mGET /static/error500.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 16:26:40] "[37mGET /error404 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 16:26:40] "[37mGET /static/error404.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 16:26:52] "[37mGET / HTTP/1.1[0m" 200 -

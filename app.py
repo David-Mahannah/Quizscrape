@@ -38,6 +38,12 @@ class Search(db.Model):
 def page_not_found(e):
     return render_template('500.html'), 500
 
+
+
+@app.errorhandler(404)
+def page_not_found_again(e):
+    return render_template('404.html'), 404
+
 @app.route('/')
 def landing():
     return render_template("landing.html")
@@ -77,6 +83,15 @@ def submit():
 
 
 
+@app.route('/error500')
+def error500():
+    return render_template('500.html')
+
+
+@app.route('/error404')
+def error404():
+    return render_template('404.html')
+
 # main driver function
-# if __name__ == '__main__':
-#     app.run()
+if __name__ == '__main__':
+    app.run()

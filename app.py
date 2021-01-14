@@ -16,7 +16,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 path = os.path.join('.', os.path.dirname(__file__), 'static/js/sijax/')
 
 import logging
-logging.basicConfig(filename = 'quizscrape.log', level=logging.ERROR, format = '<message_structure>')
+logging.basicConfig(filename = 'quizscrape.log', level=logging.ERROR)
 
 
 app = Flask(__name__)

@@ -1,7 +1,7 @@
 
 # Importing flask module in the project is mandatory
 # An object of Flask class is our WSGI application.
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 from csv import reader
 from webscrape2 import Webscrape2
 import time
@@ -14,6 +14,10 @@ from webscrape3 import run
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 path = os.path.join('.', os.path.dirname(__file__), 'static/js/sijax/')
+
+import logging
+logging.basicConfig(filename = 'quizscrape.log', level=logging.ERROR, format = '<message_structure>')
+
 
 app = Flask(__name__)
 scraper = Webscrape2()
@@ -69,7 +73,7 @@ def submit():
         # print(list_of_rows)
         return render_template('results.html', results=list_of_rows, question=r)
     else:
-        return "Bruh"
+        return redirect('/')
 
 
 

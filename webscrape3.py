@@ -104,18 +104,20 @@ def run(text, minimum_similarity=60):
     # Collect links from scrapeDaGoog method
     google_links = scrapeDaGoog(text)
     
-    if len(google_links) >= 5:
-        google_links = google_links[:5]
+    # if len(google_links) >= 5:
+    #     google_links = google_links[:5]
 
 
     # Run quizletScrape on each link in the deck
     out = []
+    count = 1
     for link in google_links:
         # Since the links are unfiltered we need to select the ones that
         # are quizlet decks. 
-        if "https://quizlet.com" in link:
+        if "https://quizlet.com" in link and count<6:
             try:
                 out.extend(quizletScrape(text, link.split("url?q=", 1)[1]))
+                count = count + 1
             except:
                 continue
             

@@ -104,6 +104,10 @@ def run(text, minimum_similarity=60):
     # Collect links from scrapeDaGoog method
     google_links = scrapeDaGoog(text)
     
+    if len(google_links) >= 5:
+        google_links = google_links[:5]
+
+
     # Run quizletScrape on each link in the deck
     out = []
     for link in google_links:

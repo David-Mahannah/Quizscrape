@@ -93,5 +93,5 @@ def error404():
     return render_template('404.html')
 
 # main driver function
-# if __name__ == '__main__':
-#     app.run()
+if __name__ == '__main__':
+    app.run()

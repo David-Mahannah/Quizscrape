@@ -1,1 +1,7 @@
 # Quizscrape
+A python webscraper for quiz answers using existing quizlet decks created by professors and students in the past.
+With the COVID Pandemic bringing most schooling online, I noticed a much greater level of cheating amoungst my peers
+through use of the web. This project was an experiment to see how much data is actually online given a webscraper greatly
+improves the efficiency of doing so. I do not intend to use this personally and suggest others not to use this either for
+the sake of their own education. Quizscrape was very effective at categorical memory-based information like biology or
+history but struggled with questions that require interpretation and not simple pattern matching.

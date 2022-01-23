@@ -27,7 +27,7 @@ import concurrent.futures
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import sentiwordnet as swn
-from proxy_finder import LoadUpProxies
+# from proxy_finder import LoadUpProxies
 from random import randrange
 from webscrape3 import scrapeDaGoog
 
@@ -103,8 +103,7 @@ class Webscrape2:
                 break
         return matches
 
-    def quizletScrape(self, text):
-
+    def scrapeGoogle(self, text):
         #s = requests.Session()
         # proxies = LoadUpProxies()
         # rnd=randrange(len(proxies))
@@ -122,26 +121,32 @@ class Webscrape2:
         #     }
         
         #headers={'User-Agent': self.GET_UA()}
-        # headers = {'User-Agent': self.GET_UA()}
+        headers = {'User-Agent': self.GET_UA()}
         # print("Searching")
-        # src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text), proxies=proxies, verify="/home/david/Quizscrape/myprojectenv/lib/python3.8/site-packages/certifi/cacert.pem", headers=headers)
-        # soup = BeautifulSoup(src.content, "html.parser")
+        src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text), 
+				#proxies=proxies,
+				verify="/home/david/Quizscrape/myprojectenv/lib/python3.8/site-packages/certifi/cacert.pem", 
+				headers=headers)
+        soup = BeautifulSoup(src.content, "html.parser")
         # print("Finished")
         # print(soup.prettify())
         # print("^ soup")
-        # google_links = []
-        # quizlet_links = []
-        # divs = soup.find_all('div', class_="kCrYT")
-        # for i in divs:
-        #     link = i.find('a')
-        #     if link:
-        #         google_links.append(i.find('a').get('href'))
+        google_links = []
+        quizlet_links = []
+        divs = soup.find_all('div', class_="kCrYT")
+        for i in divs:
+            link = i.find('a')
+            if link:
+                  google_links.append(i.find('a').get('href'))
 
-        # for link in google_links:
-        #     if link.startswith("/url?q=https://quizlet.com/"):
-        #         quizlet_links.append(link)
-        # quizlet_links = ['/url?q=https://quizlet.com/40826338/germany-culture-questions-geography-flash-cards/', '/url?q=https://quizlet.com/109005066/german-border-countries-and-capitals-flash-cards/']
-        quizlet_links = scrapeDaGoog(text)
+        for link in google_links:
+            if link.startswith("/url?q=https://quizlet.com/"):
+                quizlet_links.append(link)
+        #quizlet_links = ['/url?q=https://quizlet.com/40826338/germany-culture-questions-geography-flash-cards/', '/url?q=https://quizlet.com/109005066/german-border-countries-and-capitals-flash-cards/']
+        return quizlet_links       
+
+    def quizletScrape(self, text):
+        quizlet_links = self.scrapeGoogle(text)
         better_quizlet_links = []
         for link in quizlet_links:
             if "https://quizlet.com" in link:

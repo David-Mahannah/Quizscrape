@@ -7,9 +7,6 @@ intend to use this personally and suggest others not to use this either for the 
 Quizscrape was very effective at categorical memory-based information like biology or history but struggled with 
 questions that require interpretation and not simple pattern matching.
 
-<img width="573" alt="Screen Shot 2022-01-25 at 9 27 50 AM" src="https://user-images.githubusercontent.com/44683761/151006616-eb857f2a-0bce-4f5e-a230-30e069ae6914.png" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;">
+<img width="573" alt="Screen Shot 2022-01-25 at 9 27 50 AM" src="https://user-images.githubusercontent.com/44683761/151006616-eb857f2a-0bce-4f5e-a230-30e069ae6914.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
 
 This project is far from perfect and most likely wont run unless tinkered with a bit. The github branch history is a mess to say the least but served as a good tool to familiarize myself with github as both a tool for collaboration and project deployment.

@@ -2,10 +2,10 @@
 A study in the risks of internet acesss in a education environment.
 
 ## Table of Contents
-- [Intro] (Introduction)
-- Technologies
-- Analysis
-- Conclusion
+* [Introduction](#Introduction)
+* [Technologies](#Technologies)
+* [Analysis](#Analysis)
+* [Conclusion](#Conclusion)
 
 ## Introduction
 A python webscraper for quiz answers using existing quizlet decks created by professors and students in the past.

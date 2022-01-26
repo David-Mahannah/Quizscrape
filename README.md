@@ -24,6 +24,10 @@ questions that require interpretation and not simple pattern matching.
 - Scrapy
 
 ## Setup
+### Windows 10
+source /path/to/venv/bin/activate
+### Unix and Mac OS
+source /path/to/venv/bin/activate
 
 <img width="573" alt="Screen Shot 2022-01-25 at 9 27 50 AM" src="https://user-images.githubusercontent.com/44683761/151006616-eb857f2a-0bce-4f5e-a230-30e069ae6914.png">
 

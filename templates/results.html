@@ -9,7 +9,6 @@
   <body>
     <ul>
      <li><a href="/"><b>Quizscrape</b></a></li>
-     <li><a href="/news">News</a></li>
      <li style="float:right"><a class="active" href="/about">About</a></li>
    </ul>
      <br>
@@ -21,7 +20,7 @@
       <input type="text" id="fname" name="q" class="question" type="text" value="{{question}}">
       <input type="submit" value="Search">
     </form>
-    <h2 class="quizlet">Quizlet</h2>
+    <h2 class="Results:">Quizlet</h2>
     {% if results|length != 0 %}
       {% for result in results %}
         <div class="quizlet_card">

@@ -1,4 +1,3 @@
-
 # Importing flask module in the project is mandatory
 # An object of Flask class is our WSGI application.
 from flask import Flask, render_template, request, redirect
@@ -38,8 +37,6 @@ class Search(db.Model):
 def page_not_found(e):
     return render_template('500.html'), 500
 
-
-
 @app.errorhandler(404)
 def page_not_found_again(e):
     return render_template('404.html'), 404
@@ -47,10 +44,6 @@ def page_not_found_again(e):
 @app.route('/')
 def landing():
     return render_template("landing.html")
-
-@app.route('/news')
-def news():
-    return render_template('newsletter.html')
 
 @app.route('/about')
 def about():
@@ -63,8 +56,8 @@ def submit():
         start_time = time.time()
         #list_of_rows = scrapeDaGoog(r)
         #print(type(list_of_rows))
-        list_of_rows = run(r)
         #list_of_rows = scraper.quizletScrape(r)
+        list_of_rows = scraper.quizletScrape(r)
         print("--- %s seconds ---" % (time.time() - start_time))
         #db.session.add(Search(number_of_results=len(list_of_rows), time=time.time() - start_time))
         #db.session.commit()

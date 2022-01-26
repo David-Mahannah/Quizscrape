@@ -1,4 +1,4 @@
-# Quizscrape
+# Quizscrape - A search tool
 A study in the risks of internet acesss in a education environment.
 ## Intro
 A python webscraper for quiz answers using existing quizlet decks created by professors and students in the past.

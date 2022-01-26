@@ -11,6 +11,7 @@ questions that require interpretation and not simple pattern matching.
 
 <img width="573" alt="Screen Shot 2022-01-25 at 9 27 50 AM" src="https://user-images.githubusercontent.com/44683761/151006616-eb857f2a-0bce-4f5e-a230-30e069ae6914.png">
 
+## Analysis
 Search times are highly dependent on the hardware that the code is run on. Particularly the processor as the program is utilizes multithreading. Faster machines will take around 5-10 seconds but slower machines could take anywhere from 30-60 seconds. This application is written as proof of concept of the combination of academic resources and webscraping rather than a fully functioning marketable application.
 
 This project is far from perfect and most likely wont run unless tinkered with a bit. The github branch history is a mess to say the least but served as a good tool to familiarize myself with github as both a tool for collaboration and project deployment.

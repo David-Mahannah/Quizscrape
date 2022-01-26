@@ -1,5 +1,12 @@
 # Quizscrape - A search tool
 A study in the risks of internet acesss in a education environment.
+
+## Table of Contents
+- Introduction
+- Technologies
+- Analysis
+- Conclusion
+
 ## Intro
 A python webscraper for quiz answers using existing quizlet decks created by professors and students in the past.
 With the COVID Pandemic bringing most schooling online, I noticed a much greater level of cheating amoungst my peers
@@ -8,6 +15,15 @@ to see how much data is actually online given a webscraper greatly improves the 
 intend to use this personally and suggest others not to use this either for the sake of their own education. 
 Quizscrape was very effective at categorical memory-based information like biology or history but struggled with 
 questions that require interpretation and not simple pattern matching.
+
+## Technologies
+- Python
+- Flask
+- Beautiful Soup
+- Selenium
+- Scrapy
+
+## Demo
 
 <img width="573" alt="Screen Shot 2022-01-25 at 9 27 50 AM" src="https://user-images.githubusercontent.com/44683761/151006616-eb857f2a-0bce-4f5e-a230-30e069ae6914.png">
 

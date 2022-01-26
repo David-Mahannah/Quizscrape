@@ -2,12 +2,12 @@
 A study in the risks of internet acesss in a education environment.
 
 ## Table of Contents
-- Introduction
+- [Intro] (Introduction)
 - Technologies
 - Analysis
 - Conclusion
 
-## Intro
+## Introduction
 A python webscraper for quiz answers using existing quizlet decks created by professors and students in the past.
 With the COVID Pandemic bringing most schooling online, I noticed a much greater level of cheating amoungst my peers
 through use of the web. Particularly in the form of searching through Quizlet decks. This project was an experiment 

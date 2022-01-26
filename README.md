@@ -41,4 +41,5 @@ This tool is primarily effective at finding purely categorical data such as bio 
 ### Efficiency
 Search times are highly dependent on the hardware that the code is run on. Particularly the processor as the program is utilizes multithreading. Faster machines will take around 5-10 seconds but slower machines could take anywhere from 30-60 seconds or longer. I'm certain more efficient approaches can be developed but this application is written as proof of concept rather than a fully functioning marketable application.
 
+## Conclusion
 This project is far from perfect and may not run on all systems unless tinkered with a bit. The github branch history is a mess to say the least but served as a good tool to familiarize myself with github as both a tool for collaboration and project deployment. I am currently working to bring back the functionality of this code so a easily downloaded demo can be used. (1/25/22)

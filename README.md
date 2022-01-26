@@ -25,9 +25,9 @@ questions that require interpretation and not simple pattern matching.
 
 ## Setup
 ### Windows 10
-To activate the virtual environment:'source myprojectenv\Scripts\activate.bat'
+To activate the virtual environment: `source myprojectenv\Scripts\activate.bat`
 ### Unix and Mac OS
-To activate the virtual environment: 'source myprojectenv/bin/activate'
+To activate the virtual environment: `source myprojectenv/bin/activate`
 
 <img width="573" alt="Screen Shot 2022-01-25 at 9 27 50 AM" src="https://user-images.githubusercontent.com/44683761/151006616-eb857f2a-0bce-4f5e-a230-30e069ae6914.png">
 

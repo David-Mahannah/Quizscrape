@@ -1,6 +1,6 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
-from epic import Card, CardHolder
+from scrapy_structures import Card, CardHolder
 
 class QuizletSpider(scrapy.Spider):
     def __init__(self, text, urls):

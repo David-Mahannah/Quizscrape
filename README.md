@@ -1,5 +1,5 @@
 # Quizscrape
-A study in the risks of the web acesss in a education environment.
+A study in the risks of internet acesss in a education environment.
 ## Intro
 A python webscraper for quiz answers using existing quizlet decks created by professors and students in the past.
 With the COVID Pandemic bringing most schooling online, I noticed a much greater level of cheating amoungst my peers

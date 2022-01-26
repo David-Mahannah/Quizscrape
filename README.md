@@ -8,7 +8,7 @@ A study in the risks of internet acesss in a education environment.
 * [Conclusion](#Conclusion)
 
 ## Introduction
-Quizscrape is python webscraper for quiz answers using existing quizlet decks created by professors and students in the past.
+Quizscrape is a python webscraper for quiz answers using existing quizlet decks created by professors and students in the past.
 With the COVID Pandemic bringing most schooling online, I noticed a much greater level of cheating amoungst my peers
 through use of the web. Particularly in the form of searching through Quizlet decks. This project is an experiment 
 to see to what extent the massive amount of public data online can be utilized for the purposes of academic dishonesty. Using Quizlet decks itself is not a new method of cheating but employing webscraping and automation greatily increases the harmfulness of this practice due to its far greater efficiency. I do not intend to use this personally and strongly suggest others not to use this in practice either for the sake of their own education. That being said, I did get a bit carried away with the ui design and presentation so just to be absolutely clear, **This application was made purely for the sake of experiment and not for personal use of monotization.** In fact, as I will refer to in my analysis, this tool proves of little use to a computer science student due to its behavior.
@@ -34,6 +34,8 @@ After running:
 The demo can be found at: http://127.0.0.1:5000/ in your browser and should look as follows:
 
 <img width="573" alt="Screen Shot 2022-01-25 at 9 27 50 AM" src="https://user-images.githubusercontent.com/44683761/151006616-eb857f2a-0bce-4f5e-a230-30e069ae6914.png">
+
+<img width="773" alt="Screen Shot 2022-01-26 at 1 12 46 PM" src="https://user-images.githubusercontent.com/44683761/151230709-a15a9b0a-9c1c-45ce-81cb-831db5cdd785.png">
 
 ## Analysis
 ### Use Cases

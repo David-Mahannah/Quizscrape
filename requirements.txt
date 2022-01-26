@@ -9,7 +9,7 @@ cffi==1.14.4
 chardet==4.0.0
 click==7.1.2
 constantly==15.1.0
-cryptography==3.3.1
+cryptography==3.3.2
 cssselect==1.1.0
 distlib==0.3.1
 filelock==3.0.12
@@ -26,12 +26,12 @@ incremental==17.5.0
 itemadapter==0.2.0
 itemloaders==1.0.4
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 jmespath==0.10.0
 joblib==1.0.0
-lxml==4.6.2
+lxml>=4.6.5
 MarkupSafe==1.1.1
-nltk==3.5
+nltk==3.6.6
 parsel==1.6.0
 Protego==0.1.16
 pyasn1==0.4.8
@@ -43,9 +43,9 @@ pyOpenSSL==20.0.1
 python-engineio==4.0.0
 python-socketio==5.0.3
 queuelib==1.5.0
-regex==2020.11.13
+regex>=2021.8.3
 requests==2.25.1
-Scrapy==2.4.1
+Scrapy>=2.5.1
 selenium==3.141.0
 service-identity==18.1.0
 Sijax==0.3.2
@@ -55,7 +55,7 @@ SQLAlchemy==1.3.22
 tqdm==4.55.1
 Twisted==20.3.0
 typing-extensions==3.7.4.3
-urllib3==1.26.2
+urllib3>=1.26.5
 virtualenv==20.2.2
 w3lib==1.22.0
 Werkzeug==1.0.1

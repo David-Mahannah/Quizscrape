@@ -1,6 +1,6 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
-from epic import Epic
+from scrapy_structures import ScrapyLink
 
 class GoogSpider(scrapy.Spider):
     def __init__(self, text):
@@ -24,5 +24,5 @@ class GoogSpider(scrapy.Spider):
     def parse(self, response):
         print("RESPONSE ", response)
         xlink = LinkExtractor()
-        yield Epic(link=xlink.extract_links(response))
+        yield ScrapyLink(link=xlink.extract_links(response))
 

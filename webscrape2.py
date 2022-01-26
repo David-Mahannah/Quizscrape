@@ -47,7 +47,7 @@ class Card:
 
 
 class Webscrape2:
-    def __init__(self, minimum_error=60):
+    def __init__(self, minimum_error=0):
         self.minimum_error = minimum_error
 
     def compareS(self, string1, string2):
@@ -75,11 +75,11 @@ class Webscrape2:
         headers = {"User-Agent": "Mozilla/5.0 (Linux; U; Android 4.2.2; he-il; NEO-X5-116A Build/JDQ39) AppleWebKit/534.30 ("
                          "KHTML, like Gecko) Version/4.0 Safari/534.30"}
         
-        proxies = {
-            "http": "http://53f21367c50e4569b807846ceabcab54:@proxy.crawlera.com:8010/"
-        }
+        # proxies = {
+        #     "http": "http://53f21367c50e4569b807846ceabcab54:@proxy.crawlera.com:8010/"
+        # }
 
-        src = requests.get(link, headers=headers, proxies=proxies, verify='crawlera-ca.crt')
+        src = requests.get(link, headers=headers) #, proxies=proxies, verify='crawlera-ca.crt')
         soup = BeautifulSoup(src.content, "html.parser")
         #print(soup.prettify())
         cards = soup.find_all('div', class_="SetPageTerms-term")
@@ -89,6 +89,7 @@ class Webscrape2:
             back = card.find("span").find_next("span").encode_contents().decode('utf-8')
             tidy.append([front, back])
 
+        
         matches = []
         for front, back in tidy:
             c1 = self.compareS(front, text)
@@ -101,6 +102,7 @@ class Webscrape2:
                 matches.append(Card(front, back, link, round(c2, 2)))
                 # If found there probably isnt another
                 break
+        print("Found match: ", matches)
         return matches
 
     def scrapeGoogle(self, text):
@@ -120,17 +122,13 @@ class Webscrape2:
         #     "http": "http://53f21367c50e4569b807846ceabcab54:@proxy.crawlera.com:8010/"
         #     }
         
-        #headers={'User-Agent': self.GET_UA()}
         headers = {'User-Agent': self.GET_UA()}
-        # print("Searching")
         src = requests.get("https://google.com/search?q={0} site:Quizlet.com".format(text), 
 				#proxies=proxies,
-				verify="/home/david/Quizscrape/myprojectenv/lib/python3.8/site-packages/certifi/cacert.pem", 
+				#verify="/home/david/Quizscrape/myprojectenv/lib/python3.8/site-packages/certifi/cacert.pem",
 				headers=headers)
         soup = BeautifulSoup(src.content, "html.parser")
-        # print("Finished")
-        # print(soup.prettify())
-        # print("^ soup")
+        
         google_links = []
         quizlet_links = []
         divs = soup.find_all('div', class_="kCrYT")
@@ -142,7 +140,6 @@ class Webscrape2:
         for link in google_links:
             if link.startswith("/url?q=https://quizlet.com/"):
                 quizlet_links.append(link)
-        #quizlet_links = ['/url?q=https://quizlet.com/40826338/germany-culture-questions-geography-flash-cards/', '/url?q=https://quizlet.com/109005066/german-border-countries-and-capitals-flash-cards/']
         return quizlet_links       
 
     def quizletScrape(self, text):
@@ -153,8 +150,7 @@ class Webscrape2:
                 better_quizlet_links.append(link.split("url?q=", 1)[1])
                 print(better_quizlet_links)
 
-        print("-------------------------")
-        print(better_quizlet_links)
+        # print(better_quizlet_links)
         # Split the links amoungst threads and collect the results in out
         # if the number of cards is 1 dont bother multithreading
         threads = []

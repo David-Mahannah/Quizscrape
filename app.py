@@ -45,10 +45,6 @@ def page_not_found_again(e):
 def landing():
     return render_template("landing.html")
 
-@app.route('/news')
-def news():
-    return render_template('newsletter.html')
-
 @app.route('/about')
 def about():
     return render_template('about.html')
